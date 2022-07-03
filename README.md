@@ -8,7 +8,7 @@ The feature of the article is to use undercomplete auto-encoder (UAE) to extract
 
 ## Datasets
 
-The trace sets used in this article are generated from ASCAD:[https://github.com/ANSSI-FR/ASCAD](https://github.com/ANSSI-FR/ASCAD), which include synchronized datasets and desynchronized datasets. Each dataset composed of L=3000 samples. We mainly grid-search autoencoder and attack models on S-box 3. Grneralization experiments are done on other 15 S-boxes as well.
+The trace sets used in this article are generated from ASCAD:[https://github.com/ANSSI-FR/ASCAD](https://github.com/ANSSI-FR/ASCAD), which include synchronized datasets and desynchronized datasets. Each dataset composed of L=3000 samples. We grid-search autoencoder and attack models on S-box 3 to compare our work with the state-of-the-art attack models. Generalization experiments are done on other 15 S-boxes as well.
 
 (1) S-box 3:
 * Synchronized dataset: 
