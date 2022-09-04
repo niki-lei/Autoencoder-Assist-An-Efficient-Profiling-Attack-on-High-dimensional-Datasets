@@ -124,7 +124,7 @@ if (os.path.exists(file_path)==False):
 
 # **************change AE model hyperparameter*******************
 
-dims = [75]
+dims = [150]
 kernal_number = [8]
 kernal_sizes = [100]
 for encoding_dim in dims:
