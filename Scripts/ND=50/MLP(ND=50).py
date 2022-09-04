@@ -288,7 +288,7 @@ def check_model(model_file, ascad_database, num_traces=2000,node=16,layer_nb=3,i
 
 # change MLP model hyperparameter here
 
-input_dim = 100
+input_dim = 150
 ascad_database = "ASCAD_desync50_Sbox3_3000_test_100_AE(kernal_8x100).h5"
 print(ascad_database)
 #MLP training
