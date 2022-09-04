@@ -125,8 +125,8 @@ if (os.path.exists(file_path)==False):
 # **************change AE model hyperparameter*******************
 
 dims = [75]
-kernal_number = [8,4,2]
-kernal_sizes = [25,100,50]
+kernal_number = [8]
+kernal_sizes = [100]
 for encoding_dim in dims:
     for kernal in kernal_number:
         for kernal_size in kernal_sizes:
@@ -141,7 +141,7 @@ for encoding_dim in dims:
             ]
             encoder,autoencoder,decoder = ae_cnn_model(encoding_dim,kernal,kernal_size)
             history=autoencoder.fit(Reshaped_X_profiling, Reshaped_X_profiling,
-                            epochs=50,
+                            epochs=40,
                             batch_size=512,
                             shuffle=False,
                             validation_data=(Reshaped_X_test, Reshaped_X_test),
